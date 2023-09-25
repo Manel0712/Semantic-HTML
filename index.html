@@ -1,40 +1,56 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css" type="text/css">
-    <title>Prueba</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>Welcome to My Blog</h1><br/>
-    <nav><ul>
-        <li><a class="a" href="#">Home</a></li><li><a class="a" href="#">Categories</a></li><li><a class="a" href="#">About</a></li><li><a class="a" href="#">Contact</a></li>
-    </ul></nav>
-    <div class="grid">
-        <div>
-            <h2 class="div5">Post Title 1</h3><br/>
-            <h6>Published on September 12, 2023 by John Doe</h6><br/>
-            <p>This is the content of the blog post...</p><br/>
-            <p>More content goes here...</p><br/>
-            <h2>Post Title 2</h3><br/>
-            <h6>Published on September 10, 2023 by Jane Smith</h6><br/>
-            <p>This is another blog post...</p><br/>
-            <p>More content goes here...</p><br/>
-        </div>
-        <div class="div2">
-            <h2 class="div4">Recent Posts</h3><br/>
-            <a class="color" href="#">Post Title 1</a><br/><br/>
-            <a class="color" href="#">Post Title 2</a><br/><br/>
-            <a class="color" href="#">Post Title 3</a><br/><br/>
-            <h2 class="div6">Categories</h2><br/>
-            <a class="color" href="#">Category 1</a><br/><br/>
-            <a class="color" href="#">Category 2</a><br/><br/>
-            <a class="color" href="#">Category 3</a><br/><br/>
-        </div>
-    </div>
-    <footer>
-        <p>&copy; 2023 My Blog. All rights reserved.</p>
-    </footer>
-</body>
+    <header class="header">
+        <h1>Welcome to my blog</h1>
+        <nav class="top-navegation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section>
+            <article>
+                <h2>Post Title 1</h2>
+                <p>Published on September 12, 2023 by John Doe</p>
+                <p>This is the content of the blog post...</p>
+                <p>More content goes here...</p>
+            </article>
+            <article>
+                <h2>Post Title 2</h2>
+                <p>Published on September 10, 2023 by Jane Smith</p>
+                <p>This is another blog post...</p>
+                <p>More content goes here...</p>
+            </article>
+        </section>
+        <aside>
+            <section>
+                <h2>Recent Posts</h2>
+                <ul>
+                    <li><a href="#">Post title 1</a></li>
+                    <li><a href="#">Post title 2</a></li>
+                    <li><a href="#">Post title 3</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="#">Category 1</a></li>
+                    <li><a href="#">Category 2</a></li>
+                    <li><a href="#">Category 3</a></li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+    <footer class="footer">&copy; My Blog. All rights reserved</footer>
+  </body>
 </html>
