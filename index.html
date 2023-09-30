@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Blog</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
 </head>
-<body>
-    <header class="header">
-        <h1>Welcome to my blog</h1>
-        <nav class="top-navegation">
-            <ul>
+<body class="wrapper">
+    <header class="header-top">
+        <h1 class="header-top__heading">Welcome to my blog</h1>
+        <nav class="header-top__nav">
+            <ul class="nav-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">About</a></li>
@@ -21,29 +22,29 @@
         <section>
             <article>
                 <h2>Post Title 1</h2>
-                <p>Published on September 12, 2023 by John Doe</p>
-                <p>This is the content of the blog post...</p>
-                <p>More content goes here...</p>
+                <p class="main-content-section-article-important-text main-content-section-article-important-text__1">Published on September 12, 2023 by John Doe</p>
+                <p class="main-content-section-article-important-text">This is the content of the blog post...</p>
+                <p class="main-content-section-article-important-text">More content goes here...</p>
             </article>
             <article>
-                <h2>Post Title 2</h2>
-                <p>Published on September 10, 2023 by Jane Smith</p>
-                <p>This is another blog post...</p>
-                <p>More content goes here...</p>
+                <h2 class="main-content__heading">Post Title 2</h2>
+                <p class="main-content-section-article-important-text main-content-section-article-important-text__1">Published on September 10, 2023 by Jane Smith</p>
+                <p class="main-content-section-article-important-text">This is another blog post...</p>
+                <p class="main-content-section-article-important-text">More content goes here...</p>
             </article>
         </section>
-        <aside>
+        <aside class="main-content__aside">
             <section>
                 <h2>Recent Posts</h2>
-                <ul>
+                <ul class="nav-list">
                     <li><a href="#">Post title 1</a></li>
                     <li><a href="#">Post title 2</a></li>
                     <li><a href="#">Post title 3</a></li>
                 </ul>
             </section>
-            <section>
+            <section class="main-content__aside-section__1">
                 <h2>Categories</h2>
-                <ul>
+                <ul class="nav-list">
                     <li><a href="#">Category 1</a></li>
                     <li><a href="#">Category 2</a></li>
                     <li><a href="#">Category 3</a></li>
@@ -51,6 +52,6 @@
             </section>
         </aside>
     </main>
-    <footer class="footer">&copy; My Blog. All rights reserved</footer>
+    <footer class="footer">&copy; 2023 My Blog. All rights reserved</footer>
   </body>
 </html>
